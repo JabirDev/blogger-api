@@ -12,18 +12,18 @@ repositories {
 And the dependency:
 ```java
 dependencies {
-    implementation 'com.github.JabirDev:blogger-api:(https://jitpack.io/#JabirDev/blogger-api)'
+    implementation 'com.github.JabirDev:blogger-api:version'
 }
 ```
 
 ## Description
 
-This library is made to make it easier for you to work with Blogger API v3.  This library also use Retrofit for the networking, you can visit Retrofit [![here](https://github.com/square/retrofit).
-(Note: This library dosn't support POST request)
+This library is made to make it easier for you to work with Blogger API v3.  This library also use Retrofit for the networking, you can visit Retrofit [here](https://github.com/square/retrofit).
+>Note: This library not support POST request
 
 ## Setup
 
-* Create your `API KEY` go to [![https://developers.google.com/blogger/docs/3.0/using](Blogger API Documentation)
+* Create your `API KEY` go to [Blogger API Documentation](https://developers.google.com/blogger/docs/3.0/using)
 * Login into your Blogger account and get your blog id
 
 ## Example
