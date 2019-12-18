@@ -23,12 +23,10 @@ import static com.jabirdeveloper.bloggerapi.main.BloggerUrl.TAG_PUT_URL;
 import static com.jabirdeveloper.bloggerapi.main.BloggerUrl.TAG_SEARCH_QUERY;
 
 public class BloggerApi {
-    private Context context;
     private String blogId;
     private String apikey;
 
-    public BloggerApi(Context context, String blogId, String apikey) {
-        this.context = context;
+    public BloggerApi(String blogId, String apikey) {
         this.blogId = blogId;
         this.apikey = apikey;
     }
